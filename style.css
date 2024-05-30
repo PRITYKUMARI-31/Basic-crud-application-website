@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styling */
+.card-title {
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Form styling */
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    padding: 10px;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+}
+
+/* Button styling */
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+button.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+button.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+button.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Table styling */
+.table {
+    margin-top: 20px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.table tbody tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table tbody td {
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Additional styling */
+hr {
+    border-top: 1px solid #343a40;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+/* Hide Update button initially */
+#Update {
+    display: none;
+}
